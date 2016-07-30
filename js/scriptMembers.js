@@ -15,7 +15,7 @@ function load() {
 }
 /**
  * The following functions are used to alter the content that will be displayed on the page at the current moment
- * 
+ *
  */
 function zinhle() {
     memberName.innerHTML = "Zinhle Maseko";

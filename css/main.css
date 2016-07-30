@@ -24,7 +24,7 @@ h3{
 
 
 .nav>li>a{
-    
+
 }
 
 .nav>li:last-child{
@@ -44,7 +44,7 @@ h3{
 
 .active{
     /**Set active navigation bar button color here**/
-    
+
 }
 
 .nav>li>a{
@@ -59,7 +59,7 @@ h3{
 }
 
 .nav>.nav-right{
-    float: right; 
+    float: right;
 }
 
 /**
@@ -143,13 +143,14 @@ h1,h2,h3,h4,h5,h6{
     align-content: center;
 }
 
+/**
 .img-responsive{
     height: 65%;
     width: 80%;
     margin-left: 10%;
     display: block;
 }
-
+**/
 .img-member{
     height: 100%;
     width: 100%;
@@ -198,7 +199,7 @@ section{
     display: inline-block;
 }
 
-.btn-link{
+.btn-take-me{
     display: inline-block;
     border-radius: 4px;
     background-color: #f4511e;
@@ -209,10 +210,10 @@ section{
     padding: 5px;
     width: 170px;
     transition: all 0.5;
-    margin: 5px;    
+    margin: 5px;
 }
 
-.btn-link>span{
+.btn-take-me>span{
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -220,11 +221,11 @@ section{
     text-decoration: none;
 }
 
-.btn-link:hover>span{
+.btn-take-me:hover>span{
     padding-right: 15px;
 }
 
-.btn-link>span:after{
+.btn-take-me>span:after{
     content: '»';
     position: absolute;
     opacity: 0;
@@ -233,7 +234,7 @@ section{
     transition: 0.5s;
 }
 
-.btn-link:hover >span:after{
+.btn-take-me:hover >span:after{
     opacity: 1;
     right: 0;
 }
@@ -244,4 +245,14 @@ section{
 
 .container>.content>.center-heading>.center-line{
     color: rgba(35,27,27,0.63);
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 90%;
+      margin: auto;
+}
+
+.slider-section{
+    margin-top: 1.9%;
 }

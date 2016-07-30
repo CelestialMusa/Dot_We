@@ -4,14 +4,17 @@
     <!--======================Page Header======================-->
     <head>
         <title>DOT_we - Welcome Page</title>
-        
+
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/scroll.js"></script>
     </head>
     <!--======================Page header ends here======================-->
-    
-    
+
+
     <body>
         <!--Navigation bar-->
         <header>
@@ -30,13 +33,13 @@
                     </li>
                     <li>
                         <a href="interests.html">
-                            <i class="fa fa-heartbeat"></i>    
+                            <i class="fa fa-heartbeat"></i>
                             Interests
                         </a>
                     </li>
                     <li>
                         <a href="members.html">
-                            <i class="fa fa-hashtag" aria-hidden="true"></i>    
+                            <i class="fa fa-hashtag" aria-hidden="true"></i>
                             About US
                         </a>
                     </li>
@@ -45,7 +48,7 @@
                             <i class="fa fa-github fa-2x fa-fw" aria-hidden="true"></i>
                         </a>
                     </li>
-                    
+
                     <li class="nav-right">
                         <a href="">
                             <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
@@ -55,8 +58,8 @@
         </header>
         <!--Navigation bar ends here-->
 
-        
         <!--Home Page Introduction-->
+        <!--
             <section>
                 <div class="container start-red">
                     <div class="content">
@@ -73,12 +76,163 @@
                             <span class="center-line"></span>
                             <p> Dot_We is an IT group that loves exploring tech that's at its disposal, this time around; WE'RE EXPLORING HTML5, CSS and JAVASCRIPT.</p>
                         </div>
-                    </div>   
+                    </div>
                 </div>
             </section>
         <br>
         <!--Introduction ends here-->
-        
+
+        <section class="slider-section">
+            <div class="container">
+                  <br>
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                      <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/slide1.jpg" alt="Chania" max-width="460" max-height="345">
+                            <div class="carousel-caption">
+                              <h3>Chania</h3>
+                              <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/slide2.jpg" alt="Chania" max-width="460" max-height="345">
+                            <div class="carousel-caption">
+                              <h3>Chania</h3>
+                              <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/slider3.jpg" alt="Flower" max-width="460" max-height="345">
+                            <div class="carousel-caption">
+                              <h3>Flowers</h3>
+                              <p>Beatiful flowers in Kolymbari, Crete.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/slider4.jpg" alt="Flower" max-width="460" max-height="345">
+                            <div class="carousel-caption">
+                              <h3>Flowers</h3>
+                              <p>Beatiful flowers in Kolymbari, Crete.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </section>
+
+
+
+        <!--
+        <section>
+            <div id="myCorousel" class="carousel slide" data-slide="carousel">
+                <!-- Slider Indicators -->
+        <!--
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for ma slides -->
+        <!--
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/member1.JPG" alt="asas">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/member2.jpg" alt="asas">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/member3.jpg" alt="asas">
+                    </div>
+
+                    <div class="item">
+                        <img src="#" alt="asas">
+                    </div>
+                </div>
+
+                <!-- Slide controls -->
+        <!--
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Prev.</span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+
+
+        <!--
+        <section>
+            <div id="slider">
+                <ul>
+                    <li>
+                        <div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <d>
+
+                        </d>
+                    </li>
+
+                    <li>
+                        <d>
+
+                        </d>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <br>
+        -->
+
+        <style>
+            #slider,#slider>ul,#slider>li{
+                height:300px;
+            }
+
+
+        </style>
+
         <!--======================Little bout us======================-->
             <section>
                 <div class="content play">
@@ -90,7 +244,7 @@
                         <p>Thank you for visiting us, kindly use the navigation menu on top to visit different sections of our page.</p>
                     </div>
                 </div>
-                
+
                 <div class="container-centered">
                     <div class="center-heading gimme-space">
                         <h2>Interesting Insights</h2>
@@ -117,7 +271,7 @@
                         </ul>
                     </div>
 
-                    <div class="center-heading gimme-space"> 
+                    <div class="center-heading gimme-space">
                         <h2>Something should be here</h2>
                         <span class="center-line"></span>
                         <p>Entlek angazi.</p>
@@ -135,9 +289,9 @@
                         <span class="center-line"></span>
                         <br>
                         <p style="display:inline-block">A brief outline about each of our team members, visit the about section for comprehensive info.</p>
-                        
+
                         <a href="members.html">
-                            <button class="btn-link"><span>Take Me There</span></button>
+                            <button class="btn-take-me"><span>Take Me There</span></button>
                         </a>
                     </div>
 
@@ -151,26 +305,26 @@
                                 <span class="center-line"></span>
                                 <br>
                                 <em>DOM Structurist</em>
-                                
+
                                 <div class="social">
                                     <a href="https://www.facebook.com/musawenkosi.zakes" target="_blank">
                                         <h2>
                                             <i class="fa  fa-facebook-square" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
+
                                     <a href="https://www.instagram.com/celestial_musa/" target="_blank">
                                         <h2>
                                             <i class="fa fa-instagram" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
+
                                     <a href="https://github.com/CelestialMusa" target="_blank">
                                         <h2>
                                             <i class="fa fa-git-square" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
+
                                     <a href="http://www.linkedin.com/in/zmanyoni?trk=nav_responsive_tab_profile_pic" target="_blank">
                                         <h2>
                                             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
@@ -179,36 +333,36 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="people-v">
                             <div class="img-member">
-                                <img  class="img-member" src="img/member22.jpg" alt="Zinhle's Image">
+                                <img class="img-member" src="img/member22.jpg" alt="Zinhle's Image">
                             </div>
                             <div class="people-v2">
                                 <h2 class="center-heading">Zinhle Maseko</h2>
                                 <span class="center-line"></span>
                                 <br>
                                 <em>CSS Stylist</em>
-                                
+
                                 <div class="social">
                                     <a href="https://www.facebook.com/profile.php?id=100001999885420" target="_blank">
                                         <h2>
                                             <i class="fa  fa-facebook-square" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
+
                                     <a href="https://www.instagram.com/zinhle__/" target="_blank">
                                         <h2>
                                             <i class="fa fa-instagram" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
+
                                     <a href="https://github.com/Zinhle-M" target="_blank">
                                         <h2>
                                             <i class="fa fa-git-square" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
+
                                     <a href="https://za.linkedin.com/in/zinhle-maseko-455435b7 " target="_blank">
                                         <h2>
                                             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
@@ -217,62 +371,67 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="people-v">
                             <div class="img-member">
                                 <img class="img-member" src="img/member33.JPG" alt="Ramoloi's Image">
                             </div>
                             <div class="people-v2">
-                                <h2 class="center-heading">Ramoloi Mofokeng</h2>
+                                <h2 class="center-heading">Ramzy Mofokeng</h2>
                                 <span class="center-line"></span>
                                 <br>
                                 <em>Javascriptor</em>
-                                
+
                                 <div class="social">
                                     <a href="https://www.facebook.com/ramoloi.mofokeng" target="_blank">
                                         <h2>
                                             <i class="fa  fa-facebook-square" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
+
                                     <a href="https://www.instagram.com/rlj_mofokeng/" target="_blank">
                                         <h2>
                                             <i class="fa fa-instagram" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
+
                                     <a href="https://github.com/Ramzy94" target="_blank">
                                         <h2>
                                             <i class="fa fa-git-square" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                    
-                                    <a href="http://www.linkedin.com/in/ramoloi-mofokeng-579b89120?authType=NAME_SEARCH&authToken=KXrl&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A504564717%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1469839103007%2Ctas%3Aramoloi" target="_blank">
+
+                                    <a href="http://www.linkedin.com/in/ramoloi-mofokeng-579b89120?authType=NAME_SEARCH&amp;authToken=KXrl&amp;locale=en_US&amp;trk=tyah&amp;trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A504564717%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1469839103007%2Ctas%3Aramoloi" target="_blank">
                                         <h2>
                                             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                                         </h2>
                                     </a>
-                                </div> 
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                         <p class="center-heading">You can also show each one of us some love on social networks.</p>
                 </div>
             </section>
         <br>
         <!--======================Meet the team members end======================-->
 
-        <!--======================Footer======================-->  
+        <!--======================Footer======================-->
                 <footer>
                     <div class="nav-foot">
                             <ul>
-                                <li><h2>All rights reserved. &copy;</h2></li>
-                            </ul> 
+                                <li><h2>All rights reserved. ©</h2></li>
+                            </ul>
                     </div>
                 </footer>
         <!--======================Footer end======================-->
-    </body>
     
-    
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+</body>
+
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 </HTML>
