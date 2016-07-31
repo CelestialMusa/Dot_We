@@ -2,6 +2,7 @@ var memberName;
 var bio;
 var memberImage;
 var details;
+var music;
 
 
 /**
@@ -12,6 +13,7 @@ function load() {
     bio = document.getElementById('bio');
     memberImage = document.getElementById('memberImage');
     details = document.getElementById('details');
+    music = document.getElementById("center-heading")
 }
 /**
  * The following functions are used to alter the content that will be displayed on the page at the current moment
@@ -27,6 +29,9 @@ function zinhle() {
 
 function zacharaia() {
     memberName.innerHTML = "Zacharia Manyoni";
+    $("#show").click(function(){
+        $("center-heading").show();
+    });
 }
 
 function ramoloi() {

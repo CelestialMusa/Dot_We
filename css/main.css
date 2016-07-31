@@ -19,7 +19,8 @@ h3{
     width: 100%;
     background-color: rgba(244,67,54,0.63);
     position: fixed;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    z-index: 1;
 }
 
 
@@ -182,7 +183,7 @@ section{
     display: block;
     box-shadow:0px 4px 8px 0px rgba(0,0,0,0.2);
     padding:4px 4.5px 4px 4.5px;
-    background-color:rgba(66,66,66,0.15)
+    background-color:rgba(66,66,66,0.15);
 }
 
 .social>a{
@@ -255,4 +256,103 @@ section{
 
 .slider-section{
     margin-top: 1.9%;
+}
+
+
+/**Interests Page**/
+.member-details h1{
+        font-size: 30px;
+        text-align: center;
+        color: rgba(35, 27, 27, 0.63);
+        padding-top: 50px;
+        font-size: 30px;
+        color: rgba(35, 27, 27, 0.63);
+        text-align: center;
+        padding-top: 50px;
+        font-family: "Montserrat",monospace;
+        font-weight: 800px;
+}
+
+.member-details p{
+        font-size: 20px;
+        font-size: 20px;
+        color: rgba(35, 27, 27, 0.63);
+        text-align: center;
+        font-family: "Montserrat",monospace;
+        font-weight: 600px;
+}
+
+.nav3 h1{
+        font-size: 30px;
+        color: rgba(35, 27, 27, 0.63);
+        text-align: center;
+        padding-top: 50px;
+}
+
+.nav3 p{
+        font-size: 20px;
+        color: rgba(35, 27, 27, 0.63);
+        text-align: center;
+        font-size: 20px;
+        font-family: "Montserrat",monospace;
+        font-weight: 600px;
+}
+.nav6 h1{
+        font-size: 30px;
+        color: rgba(35, 27, 27, 0.63);
+        text-align: center;
+        padding-top: 50px;
+        font-size: 20px;
+        font-family: "Montserrat",monospace;
+        font-weight: 600px;
+}
+.nav6 p{
+        font-size: 20px;
+        color: rgba(35, 27, 27, 0.63);
+        text-align: center;
+        font-size: 20px;
+        font-family: "Montserrat",monospace;
+        font-weight: 600px;
+}
+
+
+.members{
+      height:100%;
+      width:100%;
+      display: block;
+      border-radius: 50%;
+}
+
+.member-ra{
+    height:290px;
+    width:300px;
+    float:left; 
+}
+
+.member-details{
+    height:290px;
+    width:900px;
+    float:left;
+}
+
+
+.nav5{
+    height:300px;
+    width:370px;
+    float:left;
+}
+
+.largebox{
+    height:300px;
+    width:100%;
+}
+
+.largebox-zinhle{
+       background-color: #fff;
+}
+
+.ints-container{
+   overflow:hidden;
+   padding: 0.5em;
+   padding-top: 1.5cm;
 }
