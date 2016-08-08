@@ -1,2 +1,2 @@
-# Dot_we
-IT Developments Static Website Project
+# dotWeDraft
+A working draft of out website

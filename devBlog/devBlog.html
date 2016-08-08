@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="devBlog.css" />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <script type="text/javascript" src="devBlog.js"></script>
+</head>
+    
+<body onload="load()">
+    <header>
+        <ul class="nav">
+            <li class="active">
+                <a href="../index.html">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="../devBlog/devBlog.html">
+                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                    Dev() Blog
+                </a>
+            </li>
+            <li>
+                <a href="../interests.html">
+                    <i class="fa fa-heartbeat"></i>
+                    Interests
+                </a>
+            </li>
+            <li>
+                <a href="../members.html">
+                    <i class="fa fa-hashtag" aria-hidden="true"></i>
+                    About US
+                </a>
+            </li>
+            <li class="nav-right">
+                <a href="https://github.com/orgs/CodeRampage/teams/dot_we" target="_blank">
+                    <i class="fa fa-github fa-2x fa-fw" aria-hidden="true"></i>
+                </a>
+            </li>
+
+            <li class="nav-right">
+                <a href="https://www.facebook.com/Dot_we-Developers-280020269020811/" target="_blank">
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+    
+    
+    <input type="checkbox" id="toggleA" checked/> <label for="toggleA">Software/Technologies We've Used</label>
+    <div class="software">
+        <section id="topDetails" class="collapsed">
+            <table class="soft">
+                <tr>
+                    <td><img src="images/VScode.png" alt="Visual Studio Code" /></td>
+                    <td>The Text editor of Choice for Ramoloi, Visual Studio Code, this masterpiece manages to be an IDE disguised as a text editor.
+                        Its features Include the ability to view/edit multiple files simultaneuously, great intellisence experience
+                        for select set of languages, Git intergration built in, hundreds of extensions & plugins, & 40+ language support right out of the box
+                    </td>
+                </tr>
+            </table>
+            <table class="soft">
+                <tr>
+                    <td>Brackets is a free open-source editor by Adobe and the editor of chice for Zinhle & Zacharia, This editor's main draws include
+                        a large host of plugins (less than Visual Studio Code), multiple language support, as well as a great feature that allows 
+                        developers to view and track changes made on HTML projects live
+                        as they edit the files. 
+                    </td>
+                    <td><img src="images/brackets.svg" alt="Brackets" /></td>
+                </tr>
+            </table>
+            <table class="soft">
+                <tr>
+                    <td><img src="images/HTML5.svg" alt="HTML5" /></td>
+                    <td>HTML is a markup language used for structuring and presenting content on the World Wide Web. HTML5 is the
+                        fifth and current version of the HTML standard and was our target standard for this project. HTML5 main
+                        goals were to intoduce a greate new open standard that made mutimedia streaming possible natively while
+                        also making sites more mobile friendly as a massive amount of people now use mobile devices to access the web 
+                        </td>
+                </tr>
+            </table>
+            <table class="soft">
+                <tr>
+                    <td>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
+                        written in a markup language.The Third revision brings with it some novelty features such as animations which bring web pages to life.
+                        Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging
+                        webpages, user interfaces for web applications, and user interfaces for many mobile applications.</td>
+                    <td><img src="images/css3.png" alt="CSS3" /></td>
+                </tr>
+            </table>
+            <table class="soft">
+                <tr>
+                    <td><img src="images/js.jpg" alt="JavaScript" /></td>
+                    <td>JavaScript, part of the three core elements of the web, is a programming language used to provide a certain level of funtcionality
+                        to web pages. Its use in this project include switching the content to be displayed back and forth between predeterminded options </td>
+                </tr>
+            </table>
+            <table class="soft">
+                <tr>
+                    <td>GitHub is a web-based Git repository hosting service. This tool helped us keep track of our progress in this project as well
+                        from different locations. It provides the features of Git(See Below) as while being online allowing users from diferent locations 
+                        to work hand in hand on te same projects
+                    </td>
+                    <td><img src="images/Git.svg" alt="Git" /></td>
+                </tr>
+            </table>
+            <table class="soft">
+                <tr>
+                    <td><img src="images/github.png" alt="GitHub Source Control" /></td>
+                    <td>Git is a version control system that allows users to track changes and collaborate on software development and many other tasks
+                        this Tools allowed us to keep track of chnages as well as being able to revert changes and create online repositories that act as backups
+                        as well on Github (explained above)
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+    </div>
+
+    <input type="checkbox" id="toggleC" checked/> <label for="toggleC">TimeLine</label>
+    <div class="timeline">
+
+        <section id="btmDetails" class="collapsed">
+            <div class="timeLineChild">
+                <h3>Pick a Date From the given List</h3>
+                <select onchange="displayBlogDetails()" id="dates" class="dates">
+                <option value="0">11th July 2016</option>
+                <option value="1">14 July 2016</option>
+                <option value="2">18 July 2016</option>
+                <option value="3">22 July 2016</option>
+                <option value="4">23 July 2016</option>
+                <option value="5">25 July 2016</option>
+            </select>
+                <h3 id="blogHead"></h3>
+                <article id="blogBody">
+
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <input type="checkbox" id="toggleB" checked/> <label for="toggleB">Editor Wars</label>
+    <div class="IDEWar">
+        <section id="midDetails" class="collapsed">
+                 <article id="IDE">
+                     Throughout The Deveopment Process There were Many (lets call them debates) arguments
+                     about which text editor was superior, judge for Yourselves Below.
+                </article>
+            <div class="war">
+                <table class="texteditor">
+                    <tr class="dark">
+                        <th><img class="editorWar" src="images/VScode.png" /></th>
+                        <th><img class="editorWar" src="images/brackets.svg" /></th>
+                    </tr>
+                    <tr>
+                        <td>Native Git Intergration</td>
+                        <td>None (Available through Extension)</td>
+
+                    </tr>
+                    <tr class="dark">
+                        <td colspan="2">Variety Of Extensions</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Free & Open Source</td>
+                    </tr>
+                    <tr class="dark">
+                        <td colspan="2">Syntax Highligting</td>
+                    </tr>
+                    <tr>
+                        <td>41 Languages Supported</td>
+                        <td>47 Languages Supported</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>3 File Side by Side Editing (With Multiple Tabs)</td>
+                        <td>2 File Side by Side Editing</td>
+                    </tr>
+                    <tr>
+                        <td>Debugging Tools For Mutiple Languages</td>
+                        <td>Live Preview For HTML code changes</td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+    </div>
+    
+    <footer>
+        <div class="nav-foot">
+                <ul>
+                    <li>
+                        <h3>
+                        <p style="display:inline-block;font-size:5px;">
+                            <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+                        </p>
+                        We 2016 - All rights reserved. ©
+                        </h3>
+                    </li>
+                    <em><li>Last Updated: 25 July 2016</li></em>
+                </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
