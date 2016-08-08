@@ -1,0 +1,141 @@
+body{
+    background-color: #FFF;
+}
+div.timeline , div.software , div.IDEWar {
+    box-shadow:0px 4px 8px 0px rgba(227,227,227,0.2);
+    background-color: #E3E3E3;
+    padding:2px 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5;
+    transition-duration: 0.5s;
+}
+label{
+    cursor: pointer;
+}
+
+h2{
+    display: inline-b lock;
+    width: 100%;
+    cursor: pointer;
+}
+.software, .IDEWar, .timeline{
+    transition-duration: 0.5s;
+    height: 0px;
+}
+/*.timeline{
+    transition-duration: 0.5s;
+    height: 0px;
+}*/
+#toggleC:checked ~ div.timeline{
+    height: 400px;
+}
+#toggleA:checked ~ div.software{
+    height: 650px;
+}
+
+#toggleB:checked ~ div.IDEWar{
+    height: 350px;
+}
+#topDetails{
+    opacity: 0;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+}
+#btmDetails{
+    opacity: 0;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+}
+
+#midDetails{
+    opacity: 0;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+}
+
+#toggleA:checked ~ div.software #topDetails{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+#toggleC:checked ~ div.timeline #btmDetails{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+#toggleB:checked ~ div.IDEWar #midDetails{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+
+.childSectionL , .timeLineChild
+{
+    border: 3px solid #333;
+    background-color: #fff;
+    color: #333;
+    transition-duration: 1s;
+    margin-top: 1%;
+}
+.L{
+    margin-left: 5.5%;
+    margin-top: -4%;
+}
+img{
+    max-width: 60px;
+    height: 60px;
+}
+
+h3, #blogBody{
+    text-align: center;
+}
+select.dates{
+    width: 30%;
+    margin-left: 35%;
+}
+input{
+    opacity: 0;
+    margin-top: 6%;
+}
+input + label{
+    display: inline-block;
+    font-size: 180%;
+    margin-top: 0px;
+    margin-left:3%;
+}
+#toggleA ~ label::before, #toggleB ~ label::before, #toggleC ~ label::before{
+    content: url("images/expandColapseD.svg");
+}
+#toggleA:checked + label::before , #toggleB:checked + label::before , #toggleC:checked + label::before{
+    content: url("images/expandColapseU.svg");
+}
+
+table.texteditor{
+    width: 95%;
+    font-size: 160%;
+    margin: auto;
+    color: #333;
+}
+table th{
+    background-color:#333; 
+}
+table tr.dark{
+    background-color:#FFF8DC;
+    }
+table tr{
+     background-color: #FFF5EE;
+}
+td{
+    text-align: center;
+}
+img.editorWar{
+    width: 80px;
+    height: 80px;
+}
+table.soft tr {
+    background-color: #FFF;
+}
+#IDE{
+    font-size: 120%;
+    text-align: center;
+}
