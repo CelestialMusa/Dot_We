@@ -1,2 +1,4 @@
 # dotWeDraft
-A working draft of out website
+A working draft (Well somewhat) of our website
+
+Visit here: https://celestialmusa.github.io/Dot_we/
